@@ -1,0 +1,364 @@
+.container {
+  /* position: relative; */
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.logo {
+  position: absolute;
+  left: 284px;
+}
+
+.navbar {
+  position: absolute;
+  background-color: black;
+  width: 1000px;
+  height: 50px;
+  top: 52px;
+}
+
+ul {
+  padding: 0px;
+}
+li {
+  display: inline-block;
+  margin: 0px 20px 20px 0px;
+}
+a {
+  text-decoration: none;
+  padding: 12px;
+  color: white;
+  font-family: "Archivo", sans-serif;
+  line-height: 12px;
+  font-weight: 500;
+}
+
+a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  padding: 10px 14px;
+  line-height: 16px;
+  font-weight: 500;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.headerimg {
+  position: absolute;
+  top: 78px;
+  left: 77px;
+  width: 1365px;
+  height: 415px;
+}
+
+.banner1 {
+  position: absolute;
+  top: 550px;
+  left: 285px;
+}
+
+.banner1bg {
+  display: none;
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5)
+}
+
+.banner1:hover .banner1bg{
+  display: block;
+}
+
+.banner1txt{
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  left: 40px;
+}
+
+.banner2 {
+  position: absolute;
+  top: 550px;
+  left: 610px;
+}
+
+.banner2bg {
+  display: none;
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5)
+}
+
+.banner2:hover .banner2bg{
+  display: block;
+}
+
+.banner2txt{
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  left: 110px;
+}
+
+.banner3 {
+  position: absolute;
+  top: 550px;
+  left: 935px;
+}
+
+.banner3bg {
+  display: none;
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5)
+}
+
+
+.banner3:hover .banner3bg{
+  display: block;
+}
+
+.banner3txt{
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  left: 80px;
+}
+
+.yellowblock {
+  position: absolute;
+  top: 830px;
+  left: 77px;
+  width: 1365px;
+  height: 140px;
+  background-color: yellow;
+}
+
+.yellowknop{
+  position: absolute;
+  display: inline-block;
+  background-color: lightyellow;
+  color: black;
+  top: 40px;
+  right: 200px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+}
+
+.yellowknoptxt{
+  position: absolute;
+  top: 15px;
+  right: 45px;
+}
+
+.yellowhdr {
+  position: absolute;
+  top: 32px;
+  left: 203px;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.yellowtxt {
+  position: absolute;
+  top: 55px;
+  left: 590px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footerimg {
+  position: absolute;
+  top: 1030px;
+  left: 77px;
+  width: 1365px;
+  height: 220px;
+}
+
+.dealsimg {
+  position: absolute;
+  top: 20px;
+  left: 27px;
+  height: 60px;
+  width: 60px;
+}
+
+.dienstenimg {
+  position: absolute;
+  top: 24px;
+  left: 23px;
+  height: 50px;
+  width: 50px;
+}
+
+.contactimg {
+  position: absolute;
+  top: 26px;
+  left: 25px;
+  height: 50px;
+  width: 50px;
+}
+
+.deals {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  top: 1200px;
+  left: 285px;
+}
+
+.deals:hover {
+  background-color: black;
+  color: white;
+}
+
+.diensten {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  top: 1200px;
+  left: 610px;
+}
+.diensten:hover {
+  background-color: black;
+  color: white;
+}
+
+.contact1 {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  top: 1200px;
+  left: 935px;
+}
+.contact1:hover {
+  background-color: black;
+  color: white;
+}
+
+.footerhdr {
+  position: absolute;
+  left: 110px;
+  top: 9px;
+}
+
+.footertxt {
+  position: absolute;
+  left: 110px;
+  top: 40px;
+  font-weight: 700;
+}
+
+.over-ons {
+  position: absolute;
+  top: 1395px;
+  left: 285px;
+  width: 450px;
+}
+
+.over-onstxt {
+  font-size: 14px;
+}
+
+.contact2 {
+  position: absolute;
+  top: 1400px;
+  left: 935px;
+  width: 200px;
+  height: 200px;
+}
+
+.locatie {
+  position: absolute;
+  top: 80px;
+  width: 20px;
+  height: 30px;
+}
+
+.tel {
+  position: absolute;
+  top: 130px;
+  width: 20px;
+  height: 30px;
+}
+
+.info {
+  position: absolute;
+  top: 178px;
+  width: 20px;
+  height: 30px;
+}
+
+.locatietxt {
+  position: absolute;
+  top: 70px;
+  left: 35px;
+}
+
+.teltxt {
+  position: absolute;
+  top: 128px;
+  left: 35px;
+}
+
+.infotxt {
+  position: absolute;
+  top: 170px;
+  left: 35px;
+}
+
+p {
+  font-family: "Archivo", sans-serif;
+}
+
+h1 {
+  font-family: "Archivo", sans-serif;
+}
+
+h2 {
+  font-family: "Archivo", sans-serif;
+}
+
+.bottom {
+  position: absolute;
+  top: 1689px;
+  left: 77px;
+  width: 1365px;
+  height: 60px;
+  background-color: black;
+}
+
+.bottomtxt {
+  position: absolute;
+  right: 200px;
+  color: white;
+}

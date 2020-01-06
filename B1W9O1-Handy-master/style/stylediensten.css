@@ -1,0 +1,295 @@
+.container {
+  /* position: relative; */
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.logo {
+  position: absolute;
+  left: 300px;
+  height: 10px;
+}
+
+.navbar {
+  position: absolute;
+  background-color: black;
+  width: 800px;
+  height: 40px;
+  left: 360px;
+  top: 52px;
+}
+
+ul {
+  padding: 0px;
+}
+li {
+  display: inline-block;
+  margin: 0px 20px 20px 0px;
+}
+a {
+  text-decoration: none;
+  padding: 6px;
+  color: white;
+  font-family: "Archivo", sans-serif;
+}
+
+a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.headerimg {
+  position: absolute;
+  top: 73px;
+  left: 214px;
+  width: 1092px;
+  height: 330px;
+}
+
+.dienstentxt {
+  position: absolute;
+  top: 440px;
+  left: 380px;
+  width: 800px;
+}
+
+.yellowblock {
+  position: absolute;
+  top: 820px;
+  left: 214px;
+  width: 1092px;
+  height: 115px;
+  background-color: yellow;
+}
+
+.yellowhdr {
+  position: absolute;
+  top: 15px;
+  left: 150px;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.yellowtxt {
+  position: absolute;
+  top: 50px;
+  left: 530px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footerimg {
+  position: absolute;
+  top: 980px;
+  left: 214px;
+  width: 1092px;
+  height: 179px;
+}
+
+.dealsimg {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+.dienstenimg {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 35px;
+  width: 35px;
+}
+
+.contactimg {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  height: 50px;
+  width: 45px;
+}
+
+.deals {
+  position: absolute;
+  width: 239px;
+  height: 80px;
+  background-color: yellow;
+  top: 1118px;
+  left: 380px;
+}
+
+.deals:hover {
+  background-color: black;
+  color: white;
+}
+
+.diensten {
+  position: absolute;
+  width: 239px;
+  height: 80px;
+  background-color: yellow;
+  top: 1118px;
+  left: 640px;
+}
+.diensten:hover {
+  background-color: black;
+  color: white;
+}
+
+.contact1 {
+  position: absolute;
+  width: 239px;
+  height: 80px;
+  background-color: yellow;
+  top: 1118px;
+  left: 900px;
+}
+.contact1:hover {
+  background-color: black;
+  color: white;
+}
+
+.footerhdr {
+  position: absolute;
+  left: 90px;
+  top: 3px;
+}
+
+.footertxt {
+  position: absolute;
+  left: 90px;
+  top: 30px;
+  font-weight: 700;
+  font-size: small;
+}
+
+.over-ons {
+  position: absolute;
+  top: 1270px;
+  left: 380px;
+  width: 450px;
+}
+
+.over-onstxt {
+  font-size: 14px;
+}
+
+.contact2 {
+  position: absolute;
+  top: 1270px;
+  left: 900px;
+  width: 200px;
+  height: 200px;
+}
+
+.locatie {
+  position: absolute;
+  top: 75px;
+  width: 15px;
+  height: 25;
+}
+
+.tel {
+  position: absolute;
+  top: 113px;
+  width: 15px;
+  height: 25;
+}
+
+.info {
+  position: absolute;
+  top: 150px;
+  width: 17px;
+  height: 23;
+}
+
+.locatietxt {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  font-size: small;
+}
+
+.teltxt {
+  position: absolute;
+  top: 105px;
+  left: 30px;
+  font-size: small;
+}
+
+.infotxt {
+  position: absolute;
+  top: 140px;
+  left: 30px;
+  font-size: small;
+}
+
+p {
+  font-family: "Archivo", sans-serif;
+}
+
+h1 {
+  font-family: "Archivo", sans-serif;
+}
+
+h2 {
+  font-family: "Archivo", sans-serif;
+}
+
+h3 {
+  font-family: "Archivo", sans-serif;
+}
+
+h4 {
+  font-family: "Archivo", sans-serif;
+}
+
+.bottom {
+  position: absolute;
+  top: 1506px;
+  left: 214px;
+  width: 1092px;
+  height: 50px;
+  background-color: black;
+}
+
+.bottomtxt {
+  position: absolute;
+  right: 170px;
+  color: white;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  color: yellow;
+}
+
+.tooltipdown {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  width: 200px;
+  z-index: 1;
+}
+.tooltip:hover .tooltipdown {
+  display: block;
+}
